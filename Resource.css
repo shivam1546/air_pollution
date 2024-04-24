@@ -1,0 +1,35 @@
+.resmid{
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+    width: 100%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.resmidpart1{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 100%;
+    /* margin: 10px; */
+    background-image: url('cov1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.resmidpart2{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 100%;
+    background-image: url('cov2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.resmidpart3{
+    border: 1px solid black;
+    height: 1200px;
+    width: 100%;
+}

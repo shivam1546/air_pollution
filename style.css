@@ -1,0 +1,522 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.head1{
+    border: 1px solid black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-image: url('head\ 2\ background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headleft{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 25%;
+  /* border-radius: 50%; */
+  background-image: url('save\ earth\,\ save\ life.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headright{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.headertop{
+  /* border: 1px solid blue; */
+  height: 125px;
+  width: 100%;
+}
+
+.headermid{
+  /* border: 1px solid blue; */
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.headmid1{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 16%;
+}
+
+.headmid2{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 16%;
+}
+
+.headmid3{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 16%;
+}
+
+.headmid4{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 16%;
+}
+
+.headmid5{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 16%;
+}
+
+.headmid6{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 16%;
+}
+
+.headerbottom{
+  /* border: 1px solid blue; */
+  height: 125px;
+  width: 100%;
+}
+
+.middle{
+    /* border: 1px solid blue; */
+    height: 1600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.mid1{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: black;
+}
+
+.mid1left{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 30%;
+    background-color: black;
+}
+
+.svg-frame {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .svg-frame svg {
+    position: absolute;
+    transition: .5s;
+    z-index: calc(1 - (0.2 * var(--j)));
+    transform-origin: center;
+    width: 344px;
+    height: 344px;
+    fill: none;
+  }
+  
+  .svg-frame:hover svg {
+    transform: rotate(-80deg) skew(30deg) translateX(calc(45px * var(--i))) translateY(calc(-35px * var(--i)));
+  }
+  
+  .svg-frame svg #center {
+    transition: .5s;
+    transform-origin: center;
+  }
+  
+  .svg-frame:hover svg #center {
+    transform: rotate(-30deg) translateX(45px) translateY(-3px);
+  }
+  
+  #out2 {
+    animation: rotate16 7s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  #out3 {
+    animation: rotate16 3s ease-in-out infinite alternate;
+    transform-origin: center;
+    stroke: #ff0;
+  }
+  
+  #inner3,
+  #inner1 {
+    animation: rotate16 4s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  #center1 {
+    fill: #ff0;
+    animation: rotate16 2s ease-in-out infinite alternate;
+    transform-origin: center;
+  }
+  
+  @keyframes rotate16 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+.mid1right{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 70%;
+    background-color: black;
+}
+
+.mid1rightpart1{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 40%;
+    margin-left: 10%;
+    background-image: url("fire\ below\ earth.jpg");
+    background-size: cover;
+}
+
+.mid2{
+    border: 1px solid black;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* background-color: black; */
+}
+
+.mid2left{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 45%;
+  background-image: url("parrot.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mid2right{
+  /* border: 1px solid blue; */
+  height: 100%;
+  width: 55%;
+}
+
+.mid3{
+    border: 1px solid black;
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    /* background-image: url("mountain-lake-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.mid3part1{
+  border: 1px solid black;
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.mid3part1left{
+  border: 1px solid black;
+  height: 100%;
+  width: 70%;
+}
+
+.mid3part1right{
+  border: 1px solid black;
+  height: 100%;
+  width: 30%;
+  background-image: url('pollution\ ai.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.foot{
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 100%;
+    background-image: url('footer\ background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.foottop{
+  /* border: 1px solid blue; */
+  height: 225px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.foottop1{
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 25%;
+}
+
+.foottop2{
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 25%;
+}
+
+.foottop3{
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.foottop3top{
+  /* border: 1px solid black; */
+  height: 25%;
+  width: 100%;
+}
+
+.foottop3bottom{
+  /* border: 1px solid black; */
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.foottop3bottomleft{
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 33%;
+}
+
+.foottop3bottommid{
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 33%;
+}
+
+.foottop3bottomright{
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 34%;
+}
+
+.footmid{
+  /* border: 1px solid blue; */
+  height: 225px;
+  width: 100%;
+}
+
+.footbottom{
+  /* border: 1px solid blue; */
+  height: 50px;
+  width: 100%;
+}
+
+
+.modelViewPort {
+  /* The black circle background around the model*/
+  perspective: 1000px;
+  width: 20rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  overflow: hidden;
+}
+.eva {
+  --EVA-ROTATION-DURATION: 4s;
+  transform-style: preserve-3d;
+  animation: rotateRight var(--EVA-ROTATION-DURATION) linear infinite alternate;
+}
+.head {
+  position: relative;
+  width: 6rem;
+  height: 4rem;
+  border-radius: 48% 53% 45% 55% / 79% 79% 20% 22%;
+  background: linear-gradient(to right, white 45%, gray);
+}
+.eyeChamber {
+  width: 4.5rem;
+  height: 2.75rem;
+  position: relative;
+  left: 50%;
+  top: 55%;
+  border-radius: 45% 53% 45% 48% / 62% 59% 35% 34%;
+  background-color: #0c203c;
+  box-shadow: 0px 0px 2px 2px white, inset 0px 0px 0px 2px black;
+  transform: translate(-50%, -50%);
+  animation: moveRight var(--EVA-ROTATION-DURATION) linear infinite alternate;
+}
+.eye {
+  width: 1.2rem;
+  height: 1.5rem;
+  position: absolute;
+  border-radius: 50%;
+}
+.eye:first-child {
+  left: 12px;
+  top: 50%;
+  background: repeating-linear-gradient(
+    65deg,
+    #9bdaeb 0px,
+    #9bdaeb 1px,
+    white 2px
+  );
+  box-shadow: inset 0px 0px 5px #04b8d5, 0px 0px 15px 1px #0bdaeb;
+  transform: translate(0, -50%) rotate(-65deg);
+}
+.eye:nth-child(2) {
+  right: 12px;
+  top: 50%;
+  background: repeating-linear-gradient(
+    -65deg,
+    #9bdaeb 0px,
+    #9bdaeb 1px,
+    white 2px
+  );
+  box-shadow: inset 0px 0px 5px #04b8d5, 0px 0px 15px 1px #0bdaeb;
+  transform: translate(0, -50%) rotate(65deg);
+}
+.body {
+  width: 6rem;
+  height: 8rem;
+  position: relative;
+  margin-block-start: 0.25rem;
+  border-radius: 47% 53% 45% 55% / 12% 9% 90% 88%;
+  background: linear-gradient(to right, white 35%, gray);
+}
+.hand {
+  position: absolute;
+  left: -1.5rem;
+  top: 0.75rem;
+  width: 2rem;
+  height: 5.5rem;
+  border-radius: 40%;
+  background: linear-gradient(to left, white 15%, gray);
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.25);
+  transform: rotateY(55deg) rotateZ(10deg);
+}
+.hand:first-child {
+  animation: compensateRotation var(--EVA-ROTATION-DURATION) linear infinite
+    alternate;
+}
+.hand:nth-child(2) {
+  left: 92%;
+  background: linear-gradient(to right, white 15%, gray);
+  transform: rotateY(55deg) rotateZ(-10deg);
+  animation: compensateRotationRight var(--EVA-ROTATION-DURATION) linear
+    infinite alternate;
+}
+.scannerThing {
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 60%;
+  top: 10%;
+  border-top: 180px solid #9bdaeb;
+  border-left: 250px solid transparent;
+  border-right: 250px solid transparent;
+  transform-origin: top left;
+  mask: linear-gradient(to right, white, transparent 35%);
+  animation: glow 2s cubic-bezier(0.86, 0, 0.07, 1) infinite;
+}
+.scannerOrigin {
+  position: absolute;
+  width: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  left: 60%;
+  top: 10%;
+  background: #9bdaeb;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+  animation: moveRight var(--EVA-ROTATION-DURATION) linear infinite;
+}
+@keyframes rotateRight {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(25deg);
+  }
+}
+@keyframes moveRight {
+  from {
+    transform: translate(-50%, -50%);
+  }
+  to {
+    transform: translate(-40%, -50%);
+  }
+}
+@keyframes compensateRotation {
+  from {
+    transform: rotateY(55deg) rotateZ(10deg);
+  }
+  to {
+    transform: rotatey(30deg) rotateZ(10deg);
+  }
+}
+@keyframes compensateRotationRight {
+  from {
+    transform: rotateY(55deg) rotateZ(-10deg);
+  }
+  to {
+    transform: rotateY(70deg) rotateZ(-10deg);
+  }
+}
+@keyframes glow {
+  from {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  45% {
+    transform: rotate(-25deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}

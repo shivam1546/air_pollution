@@ -1,0 +1,254 @@
+.servicemiddle{
+    margin: 0;
+    padding: 0;
+    height: 3600px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sermid1{
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.sermid1part1{
+    height: 90%;
+    width: 55%;
+    /* border: 1px solid red; */
+    margin-left: 25%;
+    margin-top: 2%;
+    background-color: black;
+}
+
+.sermid2{
+    margin: 0;
+    padding: 0;
+    height: 1550px;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+.sermid3{
+    margin: 0;
+    padding: 0;
+    height: 1550px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.sermid3-part1{
+    /* border: 1px solid blue; */
+    height: 1200px;
+    width: 100%;
+    margin-top: 21%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sermid3-part1left{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.sermid3-part1right{
+    /* border: 1px solid brown; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.sermid3-part1righttop{
+    /* border: 1px solid blue; */
+    height: 50%;
+    width: 100%;
+}
+
+.sermid3-part1rightbottom{
+    /* border: 1px solid blue; */
+    height: 50%;
+    width: 100%;
+}
+
+.sermid3-part1lefttop{
+    /* border: 1px solid blue; */
+    height: 50%;
+    width: 100%;
+
+}
+
+.sermid3-part1leftbottom{
+    /* border: 1px solid red; */
+    height: 50%;
+    width: 100%;
+}
+
+.form-container {
+    width: 400px;
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-size: 200% 100%;
+    animation: gradient 5s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #717171;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .form-container .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+  }
+  
+  .form-container .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+  }
+  
+  .form-container .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .form-container .form-group textarea:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: #717171;
+    font-weight: 600;
+    width: 40%;
+    background: #313131;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+  }
+  
+  
+  
+  .card {
+    box-sizing: border-box;
+    width: 250px;
+    height: 350px;
+    background: rgba(217, 217, 217, 0.58);
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(23, 12, 1);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url('doctor1.jpeg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+  
